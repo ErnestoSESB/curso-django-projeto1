@@ -1,0 +1,27 @@
+.recipe{
+        background: var(--color-white);
+        box-shadow: -5px 5px 10px rgba(0, 0, 0, .2);
+        transform: scale(1);
+        transition: all 300ms ease-in-out;
+        border-radius: .4rem;
+        margin-left: 50%;
+        overflow: hidden;
+    }
+    .recipe img{
+        max-width: 100%;
+    }
+    .recipe-list-item:hover {
+        transform: scale(1.02);
+        box-shadow: -8px 8px 18px rgba(0, 0, 0, .025);
+    }
+    .recipe-title-container{
+        padding: var(--spacing-gutter-medium);
+        padding-bottom: 2rem;
+    }
+    .recipe-author{
+        padding: 0 var(--spacing-gutter-medium);
+    }
+    .recipe-content{
+        padding: var(--spacing-gutter-medium);
+        padding-top: 2rem;
+    }
