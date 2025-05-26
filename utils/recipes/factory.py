@@ -46,12 +46,12 @@ def make_recipe():
             'first_name': fake.first_name(),
             'last_name': fake.last_name(),
         },
-        #'category': {
-        #    'name': fake.random_element(categories),
-        #},
         'category': {
-            'name': fake.word()
+            'name': fake.random_element(categories),
         },
+        #'category': {
+         #   'name': fake.word()
+        #},
         'cover': {
             'url': random.choice(list(images))
         }
