@@ -8,4 +8,8 @@ def home(request):
 def recipes(request, id):
     return render(request, 'pages/recipe-view.html', context={
     'recipe': make_recipe(),
+    'is_detail_page': True
 })
+
+#def recipes_by_category(request, category):
+#   return HttpResponse(f"Teste : {category}")
